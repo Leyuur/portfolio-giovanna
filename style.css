@@ -1,0 +1,130 @@
+/* Fontes */
+@font-face {
+    font-family: "Cocogoose Light";
+    src: url("assets/fonts/Cocogoose Light.ttf");
+ }
+ 
+ @font-face {
+    font-family: "Cocogoose Dark";
+    src: url("assets/fonts/Cocogoose Darkmode.ttf");
+ }
+
+ @font-face {
+    font-family: "Montserrat";
+    src: url("assets/fonts/Montserrat.ttf");
+ }
+
+:root {
+    /* Cores */
+    --branco: #FDFFEB;
+    --rosa: #BD3CE1;
+    --roxo: #6449B2;
+    --laranja: #FD530A;
+
+    /* Tipografia */
+    --montserrat: "Montserrat", sans-serif;
+    --cocogoose-light: "Cocogoose Light", sans-serif;
+    --cocogoose-dark: "Cocogoose Dark", sans-serif;       
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: fit-content;
+    font-family: var(--cocogoose-light);
+    background-color: var(--branco);
+    overflow-x: hidden;
+}
+
+a, p{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+    background-color: var(--roxo);
+    letter-spacing: 1px;
+    z-index: 2;
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 45px;
+}
+
+.scroll a {
+    display: flex;
+    width: 33%;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll #projetos-nav {
+    padding: 0 40px;
+        border-left: 1px solid var(--branco);
+        border-right: 1px solid var(--branco);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+#inicio {
+    height: 100dvh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio #letras-inicio-1 {
+    width: 30%;
+}
+
+#inicio p {
+    font-family: var(--montserrat);
+    font-weight: bold;
+    color: var(--laranja);
+    font-size: 30px;
+}
+
+.elemento {
+    position: absolute;
+}
+
+#curva-rosa-1 {
+    top: 0;
+    width: 100vw;
+}
+
+#curva-laranja-1 {
+    left: 0;
+    width: 20%;
+}
+
+#curva-roxa-1 {
+    right: 0;
+    bottom: -30%;
+    width: 12%;
+}
