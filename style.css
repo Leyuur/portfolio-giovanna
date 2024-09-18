@@ -196,3 +196,79 @@ nav {
     top: -45%;
     z-index: -1;
 }
+
+#habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-3 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+#titulo-3 {
+    width: 80%;
+    text-align: start;
+    font-size: 3vw;
+    color: var(--branco);
+    font-weight: 400;
+}
+
+.cima-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.figma-3, .illustrator-3, .psp-3, .indesign-3 {
+    display: flex;
+    gap: 15px;
+    color: var(--branco);
+    width: 25%;
+    padding: 0 15px;
+}
+
+.figma-3 img, .illustrator-3 img, .psp-3 img, .indesign-3 img {
+    width: 8vw;
+    height: auto;
+}
+
+.desc-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    text-align: start;
+}
+
+.desc-3 h1 {
+    font-family: var(--cocogoose-dark);
+    font-size: 1vw;
+    width: 100%;
+    font-weight: 400;
+}
+
+.desc-3 p {
+    font-family: var(--cocogoose-light);
+    font-size: 0.8vw;
+    width: 100%;
+}
+
+.baixo-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#card-3 {
+    width: 25%;
+}
