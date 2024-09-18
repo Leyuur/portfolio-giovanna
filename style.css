@@ -20,6 +20,7 @@
     --rosa: #BD3CE1;
     --roxo: #6449B2;
     --laranja: #FD530A;
+    --preto: #1E1E1E;
 
     /* Tipografia */
     --montserrat: "Montserrat", sans-serif;
@@ -38,6 +39,11 @@ body {
     font-family: var(--cocogoose-light);
     background-color: var(--branco);
     overflow-x: hidden;
+}
+
+section {
+    height: 100dvh;
+    position: relative;
 }
 
 a, p{
@@ -90,9 +96,7 @@ nav {
 }
 
 #inicio {
-    height: 100dvh;
     display: flex;
-    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -127,4 +131,65 @@ nav {
     right: 0;
     bottom: -30%;
     width: 12%;
+}
+
+#sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.conteudo-2 {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+}
+
+.esquerda-2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerda-2 img {
+    width: 50%;
+}
+
+.direita-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.direita-2 h1 { 
+    color: var(--laranja);
+    font-family: var(--cocogoose-dark);
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.direita-2 p { 
+    color: var(--preto);
+    font-family: var(--montserrat);
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#caneta-design-2 {
+    top: 5%;
+    right: 30%;
+    width: 10%;
+}
+
+#tinta-laranja-2 {
+    right: 0;
+    bottom: -25%;
+    width: 20%;
+}
+
+#onda-roxa-3 {
+    width: 100vw;
+    top: -45%;
+    z-index: -1;
 }
