@@ -51,6 +51,10 @@ a, p{
     color: var(--branco);
 }
 
+h1 {
+    font-family: var(--cocogoose-dark);
+}
+
 nav {
     position: fixed;
     display: flex;
@@ -164,7 +168,6 @@ nav {
 
 .direita-2 h1 { 
     color: var(--laranja);
-    font-family: var(--cocogoose-dark);
     font-size: 5vw;
     font-weight: 600;
 }
