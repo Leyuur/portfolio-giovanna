@@ -193,6 +193,7 @@ nav {
 
 #onda-roxa-3 {
     width: 100vw;
+    height: 140%;
     top: -45%;
     z-index: -1;
 }
@@ -271,4 +272,92 @@ nav {
 
 #card-3 {
     width: 25%;
+}
+
+#projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.id-visual {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    gap: 5vh;
+}
+
+.id-visual p {
+    color: var(--preto);
+    font-family: var(--montserrat);
+    font-size: 1.5vw;
+}
+
+.toda-4, .psidaisy-4, .aviaonamao-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.psidaisy-4 {
+    margin-bottom: 12vw;
+}
+
+.aviaonamao-4 {
+    color: var(--branco);
+    position: relative;
+}
+
+.aviaonamao-4::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 120%;
+    z-index: -1;
+    background-color: var(--roxo);
+}
+
+.apresentacao-toda-4, .apresentacao-psidaisy-4, .apresentacao-aviaonamao-4 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.apresentacao-toda-4 h1, .apresentacao-psidaisy-4 h1, .apresentacao-aviaonamao-4 h1 {
+    font-size: 3vw;
+}
+
+.apresentacao-toda-4 h2, .apresentacao-psidaisy-4 h2 {
+    font-size: 2vw;
+}
+
+.apresentacao-aviaonamao-4 h2 {
+    font-size: 1.8vw;
+}
+
+.apresentacao-toda-4 p, .apresentacao-psidaisy-4 p, .apresentacao-aviaonamao-4 p {
+    font-size: 1.3vw;
+}
+
+.apresentacao-aviaonamao-4 p {
+    color: var(--branco);
+}
+
+.id-toda-4, .id-psidaisy-4, .id-aviaonamao-4 {
+    display: flex;
+    justify-content: start;
+}
+
+.id-toda-4 img, .id-psidaisy-4 img, .id-aviaonamao-4 img {
+    width: 67vw;
+}
+
+.id-toda-4 img {
+    margin-left: -5%;
 }
