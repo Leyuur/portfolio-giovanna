@@ -304,7 +304,7 @@ nav {
 }
 
 .psidaisy-4 {
-    margin-bottom: 12vw;
+    margin-bottom: 10vw;
 }
 
 .aviaonamao-4 {
@@ -316,7 +316,7 @@ nav {
     content: "";
     position: absolute;
     width: 100vw;
-    height: 120%;
+    height: 110%;
     z-index: -1;
     background-color: var(--roxo);
 }
