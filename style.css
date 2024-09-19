@@ -278,7 +278,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: fit-content;
+    gap: 5vw;
 }
 
 .id-visual {
@@ -295,7 +297,16 @@ nav {
     font-size: 1.5vw;
 }
 
-.toda-4, .psidaisy-4, .aviaonamao-4 {
+.aviaonamao-4::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 110%;
+    z-index: -1;
+    background-color: var(--roxo);
+}
+
+.toda-4, .psidaisy-4, .aviaonamao-4, .circle-4, .icone-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,16 +323,7 @@ nav {
     position: relative;
 }
 
-.aviaonamao-4::before{
-    content: "";
-    position: absolute;
-    width: 100vw;
-    height: 110%;
-    z-index: -1;
-    background-color: var(--roxo);
-}
-
-.apresentacao-toda-4, .apresentacao-psidaisy-4, .apresentacao-aviaonamao-4 {
+.apresentacao-toda-4, .apresentacao-psidaisy-4, .apresentacao-aviaonamao-4, .apresentacao-circle-4, .apresentacao-icone-4 {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -329,35 +331,73 @@ nav {
     gap: 1vw;
 }
 
-.apresentacao-toda-4 h1, .apresentacao-psidaisy-4 h1, .apresentacao-aviaonamao-4 h1 {
-    font-size: 3vw;
-}
-
-.apresentacao-toda-4 h2, .apresentacao-psidaisy-4 h2 {
-    font-size: 2vw;
-}
-
-.apresentacao-aviaonamao-4 h2 {
-    font-size: 1.8vw;
-}
-
-.apresentacao-toda-4 p, .apresentacao-psidaisy-4 p, .apresentacao-aviaonamao-4 p {
-    font-size: 1.3vw;
-}
-
 .apresentacao-aviaonamao-4 p {
     color: var(--branco);
 }
 
-.id-toda-4, .id-psidaisy-4, .id-aviaonamao-4 {
+.apresentacao-toda-4 h1, .apresentacao-psidaisy-4 h1, .apresentacao-aviaonamao-4 h1, .apresentacao-circle-4 h1, .apresentacao-icone-4 h1 {
+    font-size: 3vw;
+}
+
+.apresentacao-toda-4 h2, .apresentacao-psidaisy-4 h2, .apresentacao-aviaonamao-4 h2, .apresentacao-circle-4 h2, .apresentacao-icone-4 h2 {
+    font-size: 2vw;
+}
+
+.apresentacao-toda-4 p, .apresentacao-psidaisy-4 p, .apresentacao-aviaonamao-4 p, .apresentacao-circle-4 p, .apresentacao-icone-4 p {
+    font-size: 1.3vw;
+}
+
+.id-toda-4, .id-psidaisy-4, .id-aviaonamao-4, .id-circle-4, .id-icone-4 {
     display: flex;
     justify-content: start;
 }
 
-.id-toda-4 img, .id-psidaisy-4 img, .id-aviaonamao-4 img {
+.id-toda-4 img, .id-psidaisy-4 img, .id-aviaonamao-4 img, .id-circle-4 img, .id-icone-4 img {
     width: 67vw;
 }
 
+
+
 .id-toda-4 img {
     margin-left: -5%;
+}
+
+.design-rs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-rs p {
+    width: 90%;
+    text-align: start;
+    color: var(--preto);
+    font-family: var(--montserrat);
+    font-size: 1.5vw;
+}
+
+.design-rs img {
+    width: 70vw;
+}
+
+.apresentacao-circle-4 p {
+    color: var(--preto);
+}
+
+.pap-digital {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.pap-digital p {
+    color: var(--preto);
+    font-family: var(--montserrat);
+    font-size: 1.5vw;
+    width: 90%;
 }
