@@ -339,8 +339,12 @@ nav {
     font-size: 3vw;
 }
 
-.apresentacao-toda-4 h2, .apresentacao-psidaisy-4 h2, .apresentacao-aviaonamao-4 h2, .apresentacao-circle-4 h2, .apresentacao-icone-4 h2 {
+.apresentacao-toda-4 h2, .apresentacao-psidaisy-4 h2, .apresentacao-circle-4 h2, .apresentacao-icone-4 h2 {
     font-size: 2vw;
+}
+
+.apresentacao-aviaonamao-4 h2 {
+    font-size: 1.8vw;
 }
 
 .apresentacao-toda-4 p, .apresentacao-psidaisy-4 p, .apresentacao-aviaonamao-4 p, .apresentacao-circle-4 p, .apresentacao-icone-4 p {
