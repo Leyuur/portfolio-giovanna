@@ -107,7 +107,7 @@ nav {
 }
 
 #inicio #letras-inicio-1 {
-    width: 30%;
+    width: 35%;
 }
 
 #inicio p {
@@ -138,6 +138,7 @@ nav {
 }
 
 #sobre-mim {
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center ;
