@@ -406,3 +406,92 @@ nav {
     font-size: 1.5vw;
     width: 90%;
 }
+
+#contato {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contato h1, #contato p, #contato h3 {
+    color: var(--branco);
+}
+
+.conteudo-footer {
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vw;
+    gap: 1vw;
+}
+
+.conteudo-footer h1 {
+    font-size: 3vw;
+}
+
+.conteudo-footer p {
+    font-family: var(--montserrat);
+}
+
+.conteudo-footer h3 {
+    font-family: var(--cocogoose-light);
+    color: white !important;
+}
+
+.contatos-footer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-top: 5%;
+    gap: 0.5vw;
+}
+
+.contatos-footer a {
+    font-family: var(--montserrat);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    gap: 0.5vw;
+}
+
+.contatos-footer a img{
+    width: 2vw;
+}
+
+#onda-laranja {
+    width: 100%;
+    height: 220%;
+    bottom: 0;
+    z-index: 0;
+}
+
+#curva-branca {
+    right: 4%;
+    width: 11%;
+    height: 75%;
+    bottom: 30%;
+    z-index: 1;
+}
+
+#onda-rosa {
+    bottom: 0;
+    width: 105%;
+    z-index: 2;
+}
+
+#flor-branca {
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    z-index: 3; 
+}
+
+
+
+
