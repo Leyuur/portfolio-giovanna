@@ -64,7 +64,15 @@ nav {
     padding: 30px 50px;
     background-color: var(--roxo);
     letter-spacing: 1px;
-    z-index: 2;
+    z-index: 10;
+}
+
+nav a {
+    transition: 0.3s;
+}
+
+#sobre-nav:hover, #contato-nav:hover, .social a:hover {
+    transform: scale(1.1);
 }
 
 .scroll {
@@ -84,8 +92,48 @@ nav {
 
 .scroll #projetos-nav {
     padding: 0 40px;
-        border-left: 1px solid var(--branco);
-        border-right: 1px solid var(--branco);
+    border-left: 1px solid var(--branco);
+    border-right: 1px solid var(--branco);
+}
+
+.projetos-click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    width: 13vw;
+    position: fixed;
+    padding: 0.2vw 0;
+    gap: 0.2vw;
+    top: 4.5vw;
+    right: 43.3vw;
+    background: var(--branco);
+    font-family: var(--cocogoose-light);
+    font-weight: 700;
+    font-size: 0.9vw;
+    border-radius: 15px;
+    border: 2px solid var(--roxo);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.105);
+}
+
+.projetos-click.hidden{
+    display: none;
+}
+
+.projetos-click a {
+    color: var(--roxo);
+    width: 98%;
+    height: 33%;
+    padding: 0.3vw;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.projetos-click a:hover {
+    color: var(--branco);
+    background: var(--roxo);
+
 }
 
 .social {
@@ -108,6 +156,7 @@ nav {
 
 #inicio #letras-inicio-1 {
     width: 35%;
+    animation: scaleIn 1s;
 }
 
 #inicio p {
@@ -124,20 +173,23 @@ nav {
 #curva-rosa-1 {
     top: 0;
     width: 100vw;
+    animation: slideDown 1s;
 }
 
 #curva-laranja-1 {
     left: 0;
     width: 20%;
+    animation: slideLeft 1s;
 }
 
 #curva-roxa-1 {
     right: 0;
     bottom: -30%;
     width: 12%;
+    animation: slideRight 1s;
 }
 
-#sobre-mim {
+#sobre-mim_ {
     height: 80vh;
     display: flex;
     align-items: center;
@@ -181,9 +233,9 @@ nav {
 }
 
 #caneta-design-2 {
-    top: 5%;
-    right: 30%;
-    width: 10%;
+    top: -1.5vw;
+    right: 30vw;
+    width: 10vw
 }
 
 #tinta-laranja-2 {
@@ -284,6 +336,10 @@ nav {
     gap: 5vw;
 }
 
+#projetos p {
+    text-align: center;
+}
+
 .id-visual {
     display: flex;
     justify-content: center;
@@ -297,6 +353,11 @@ nav {
     font-family: var(--montserrat);
     font-size: 1.5vw;
 }
+
+#titulo-id-visual {
+    text-align: start !important;
+}
+
 
 .aviaonamao-4::before{
     content: "";
@@ -370,7 +431,7 @@ nav {
 .design-rs {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 3%;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -378,7 +439,7 @@ nav {
 
 .design-rs p {
     width: 90%;
-    text-align: start;
+    text-align: start !important;
     color: var(--preto);
     font-family: var(--montserrat);
     font-size: 1.5vw;
@@ -401,13 +462,14 @@ nav {
 }
 
 .pap-digital p {
+    text-align: start !important;
     color: var(--preto);
     font-family: var(--montserrat);
     font-size: 1.5vw;
     width: 90%;
 }
 
-#contato {
+#contato_ {
     height: 80vh;
     display: flex;
     align-items: center;
@@ -415,7 +477,7 @@ nav {
     text-align: center;
 }
 
-#contato h1, #contato p, #contato h3 {
+#contato_ h1, #contato_ p, #contato_ h3 {
     color: var(--branco);
 }
 
@@ -504,6 +566,47 @@ nav {
     z-index: 3; 
 }
 
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
 
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
 
+@keyframes slideRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
 
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

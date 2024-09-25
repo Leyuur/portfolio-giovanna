@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Portfólio Giovanna Giovaneli</title>
 </head>
 <body>
@@ -13,9 +12,14 @@
             <p>GIOVANNA GIOVANELI</p>
         </div>
         <div class="scroll">
-            <a href="#sobre-mim" id="sobre-nav">SOBRE MIM</a>
-            <a href="#projetos" id="projetos-nav">PROJETOS</a>
-            <a href="#contato" id="contato-nav">ENTRE EM CONTATO</a>
+            <a class="scrollBtn" id="sobre-mim" href="#sobre-mim" id="sobre-nav">SOBRE MIM</a>
+            <a href="#" id="projetos-nav">PROJETOS</a>
+            <div class="projetos-click hidden">
+                <a class="scrollBtn" id="id-visual" href="#id-visual">ID VISUAL</a>
+                <a class="scrollBtn" id="design-rs" href="#design-rs">DESIGN PARA<br>REDES SOCIAIS</a>
+                <a class="scrollBtn" id="pap-digital" href="#pap-digital">PAPELARIA DIGITAL</a>
+            </div>
+            <a class="scrollBtn" id="contato" href="#contato" id="contato-nav">ENTRE EM CONTATO</a>
         </div>
         <div class="social">
             <a href="" id="insta-nav"><img src="assets/elements/INSTA.png"></a>
@@ -31,7 +35,7 @@
         <img id="letras-inicio-1" src="assets/elements/PORFÓLIO LETRAS INÍCIO.png">
         <p>Giovanna Giovaneli 2024</p>
     </section>
-    <section id="sobre-mim">
+    <section id="sobre-mim_">
         <img class="elemento" id="caneta-design-2" src="assets/elements/CANETA DESIGN.png">
         <img class="elemento" id="tinta-laranja-2" src="assets/elements/TINTA LARANJA.png">
 
@@ -44,7 +48,7 @@
                 <p>Me chamo Giovanna, tenho 20 anos e estou desde de 2003<br>fazendo artes por aí e hoje posso dizer que trabalho com o<br>que amo.<br><br>
                     Nos últimos anos desenvolvi trabalhos que me fizeram<br>descobrir o Design Gráfico como minha paixão e vocação.<br>Estes foram estudos, projetos criativos, Identidades Visual<br>para Marcas, pôsteres e outros.<br><br>
                     Meu objetivo é combinar a sua ideia, a minha criatividade e<br>gerar artes que comuniquem até mesmo os que passam de<br>longe.<br><br>
-                    Te apresento aqui o meu<br>portfólio para você conhecer o meu trabalho e a minha área. </p>
+                    Te apresento aqui o meu portfólio para você conhecer o meu<br>trabalho e a minha área. </p>
             </div>
         </div>
     </section>
@@ -91,8 +95,8 @@
         </div>
     </section>
     <section id="projetos">
-        <div class="id-visual">
-            <p>01. Identidade Visual</p>
+        <div class="id-visual" id="id-visual_">
+            <p id="titulo-id-visual">01. Identidade Visual</p>
             <div class="toda-4">
                 <div class="apresentacao-toda-4">
                     <h1>Toda Produtora</h1>
@@ -135,11 +139,11 @@
                 </div>
             </div>
         </div>
-        <div class="design-rs">
+        <div class="design-rs" id="design-rs_">
             <p>02. Designs para Redes Sociais</p>
             <img src="assets/elements/POSTS REDES SOCIAIS.png">
         </div>
-        <div class="pap-digital">
+        <div class="pap-digital" id="pap-digital_">
             <p>03.Papelaria Digital / Ilustrações</p>
             <div class="circle-4">
                 <div class="apresentacao-circle-4">
@@ -170,7 +174,7 @@
             </div>
         </div>
     </section>
-    <section id="contato">
+    <section id="contato_">
         <img src="assets/elements/ABSTRATO LARANJA FINAL.png" class="elemento" id="onda-laranja">
         <img src="assets/elements/ABSTRATO LILAS.png" class="elemento" id="onda-rosa">
         <img src="assets/elements/ARCO.png" class="elemento" id="curva-branca">
@@ -184,7 +188,9 @@
                 <a href="" id="zap-footer"><img src="assets/elements/WHATSAPP.png"> (21) 98340-2898</a>
                 <a href="" id="email-footer"><img src="assets/elements/EMAIL.png"> giovannagiovaneli.designs@gmail.com</a>
             </div>
+            <p style="margin-top: 2vw;">Desenvolvido por <a href="https://www.instagram.com/leyuur_/" target="_blank">Yuri Duarte</a></p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
