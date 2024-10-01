@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let windowBottom = windowTop + window.innerHeight; 
         
         if (targetTop < windowBottom) {
-            targetElement.style.animation = animacao;
+                targetElement.style.animation = animacao;
         }
     }
     
@@ -137,6 +137,39 @@ document.addEventListener('DOMContentLoaded', () => {
         id = "#img-design-rs";
         animacao = "scaleIn 1.5s"
         animar(id, animacao);
+
+        id = "#titulo-pap-digital";
+        animacao = "slideLeft 1.5s"
+        animar(id, animacao);
+
+        id = ".apresentacao-circle-4";
+        animacao = "slideUp 1.5s"
+        animar(id, animacao);
+
+        id = ".id-circle-4";
+        animacao = "scaleIn 1.5s"
+        animar(id, animacao);
+
+        id = ".apresentacao-icone-4";
+        animacao = "slideUp 1.5s"
+        animar(id, animacao);
+
+        id = ".id-icone-4";
+        animacao = "scaleIn 1.5s"
+        animar(id, animacao);
+
+        id = "#curva-branca";
+        animacao = "slideRight 2s"
+        animar(id, animacao);
+
+        id = "#flor-branca";
+        animacao = "slideLeft 1.5s"
+        animar(id, animacao);
+        
+        id = ".conteudo-footer";
+        animacao = "scaleIn 1s"
+        animar(id, animacao);
+        
     });
     
     
