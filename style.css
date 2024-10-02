@@ -569,6 +569,168 @@ nav a {
     z-index: 3; 
 }
 
+#nav-mobile {
+    display: none;
+}
+
+#ola-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    #nav-desktop {
+        display: none;
+    }
+
+    #nav-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 25px;
+        max-width: 100vw;
+    }
+
+    #burger-icon {
+        color: var(--branco);
+        font-size: 8vw;
+    }
+
+    .mini-menu.closed {
+        display: none;
+    }
+
+    .mini-menu {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--branco);
+        font-family: var(--cocogoose-light);
+        font-weight: 700;
+        border-radius: 15px;
+        border: 2px solid var(--roxo);
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.105);
+        right: 3%;
+        gap: 3vw;
+        padding: 15px;
+        height: fit-content;
+    }
+
+    .mini-menu a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--roxo);
+        font-size: 4vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    .social {
+        gap: 15px;
+    }
+
+    .social img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #curva-rosa-1 {
+        content: url("assets/elements/mobile/Rectangle 115.png");
+        top: 5%;
+    }
+
+    #curva-laranja-1 {
+        content: url("assets/elements/mobile/Rectangle 116.png");
+        top: 0;
+        width: 40%;
+        height: 110vh;
+    }
+
+    #curva-roxa-1 {
+        width: 30%;
+        bottom: -48%;
+    }
+
+    #inicio {
+        height: 80dvh;
+    }
+
+    #inicio p {
+        display: none;
+    }
+
+    #inicio #letras-inicio-1 {
+        width: 80%;
+    }
+
+    #sobre-mim_ {
+        align-items: start;
+    }
+
+    .conteudo-2 {
+        flex-direction: column;
+        align-items: start;
+        max-width: 90%;
+        gap: 15px;
+        margin-left: 20%;
+    }
+
+    .esquerda-2 {
+        flex-direction: column;
+    }
+
+    #ola-desktop {
+        display: none;
+    }
+
+    #ola-mobile {
+        display: flex;
+        width: 100%;
+        color: var(--laranja);
+        font-size: 12vw;
+    }
+
+    .esquerda-2 img {
+        width: 45vw;
+    }
+
+    #caneta-design-2 {
+        content: url("assets/elements/mobile/CANETA DESIGN MOBILE.png");
+        top: -12vw;
+        right: 10vw;
+        width: 35vw;
+    }
+
+    .direita-2 {
+        width: 80%;
+    }
+
+    .direita-2 p {
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+    #onda-roxa-3 {
+        content: url("assets/elements/mobile/Rectangle 120.png");
+        height: 140%;
+        top: -33%;
+        width: 110vw;
+    }
+
+    #tinta-laranja-2 {
+        bottom: -16%;
+        width: 40%;
+    }
+
+}
+
 @keyframes slideDown {
     0% {
         transform: translateY(-100%);

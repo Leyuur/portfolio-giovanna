@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Portfólio Giovanna Giovaneli</title>
 </head>
 <body>
-    <nav>
+    <nav id="nav-desktop">
         <div class="logo">
             <p>GIOVANNA GIOVANELI</p>
         </div>
@@ -27,6 +28,24 @@
             <a href="https://api.whatsapp.com/send/?phone=5521983402898&text=Oi%20Giovanna!%20Vi%20seu%20trabalho%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7o.%20Podemos%20conversar%20um%20pouco%20mais?&type=phone_number&app_absent=0" target="_blank" id="zap-nav"><img src="assets/elements/WHATSAPP.png"></a>
         </div>
     </nav>
+    <nav id="nav-mobile">
+        <div class="logo">
+            <p>GIOVANNA GIOVANELI</p>
+        </div>
+        <div class="burger">
+            <span class="material-symbols-outlined" id="burger-icon">menu</span>
+            <div class="mini-menu closed">
+                <a class="scrollBtn" id="id-visual" href="#id-visual">ID VISUAL</a>
+                <a class="scrollBtn" id="design-rs" href="#design-rs">DESIGN PARA<br>REDES SOCIAIS</a>
+                <a class="scrollBtn" id="pap-digital" href="#pap-digital">PAPELARIA DIGITAL</a>
+                <div class="social">
+                    <a href="https://www.instagram.com/giovannarte__/" target="_blank" id="insta-nav"><img src="assets/elements/INSTA.png"></a>
+                    <a href="mailto:giovannagiovaneli.designs@gmail.com" target="_blank" id="email-nav"><img src="assets/elements/EMAIL.png"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5521983402898&text=Oi%20Giovanna!%20Vi%20seu%20trabalho%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7o.%20Podemos%20conversar%20um%20pouco%20mais?&type=phone_number&app_absent=0" target="_blank" id="zap-nav"><img src="assets/elements/WHATSAPP.png"></a>
+                </div>
+            </div>
+        
+    </nav>
     <section id="inicio">
         <img class="elemento" id="curva-rosa-1" src="assets/elements/curva-rosa.png">
         <img class="elemento" id="curva-laranja-1" src="assets/elements/curva-laranja.png">
@@ -41,10 +60,11 @@
 
         <div class="conteudo-2">
             <div class="esquerda-2">
+                <h1 id="ola-mobile">Olá!</h1>
                 <img id="minha-foto" src="assets/elements/MINHA FOTO.png">
             </div>
             <div class="direita-2">
-                <h1>Olá!</h1>
+                <h1 id="ola-desktop">Olá!</h1>
                 <p>Me chamo Giovanna, tenho 20 anos e estou desde de 2003<br>fazendo artes por aí e hoje posso dizer que trabalho com o<br>que amo.<br><br>
                     Nos últimos anos desenvolvi trabalhos que me fizeram<br>descobrir o Design Gráfico como minha paixão e vocação.<br>Estes foram estudos, projetos criativos, Identidades Visual<br>para Marcas, pôsteres e outros.<br><br>
                     Meu objetivo é combinar a sua ideia, a minha criatividade e<br>gerar artes que comuniquem até mesmo os que passam de<br>longe.<br><br>
@@ -94,7 +114,7 @@
             </div>
         </div>
     </section>
-    <section id="projetos">
+    <!-- <section id="projetos">
         <div class="id-visual" id="id-visual_">
             <p id="titulo-id-visual">01. Identidade Visual</p>
             <div class="toda-4">
@@ -190,7 +210,7 @@
             </div>
             <p style="margin-top: 2vw;">Desenvolvido por <a href="https://www.instagram.com/leyuur_/" target="_blank">Yuri Duarte</a></p>
         </div>
-    </section>
+    </section> -->
     <script src="script.js"></script>
 </body>
 </html>
