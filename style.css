@@ -722,13 +722,12 @@ nav a {
 
     .direita-2 p {
         font-size: 2vw;
-        font-weight: bold;
     }
 
     #onda-roxa-3 {
         content: url("assets/elements/mobile/Rectangle 120.png");
         height: 140%;
-        top: -33%;
+        top: -30%;
         width: 110vw;
     }
 
