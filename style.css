@@ -870,7 +870,7 @@ nav a {
     }
 
     #curva-branca {
-        right: -5%;
+        right: -7%;
         width: 20%;
         height: auto;
         bottom: 15%;
@@ -879,6 +879,7 @@ nav a {
 
     #flor-branca {
         bottom: 20%;
+        left: -5%;
     }
 
     #contato_ {
@@ -894,7 +895,7 @@ nav a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 18vw;
+        padding-bottom: 10vw;
         gap: 1vw;
     }
 
@@ -903,11 +904,12 @@ nav a {
     }
 
     .conteudo-footer p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .conteudo-footer h3 {
-        font-size: 2vw;
+        font-size: 3vw;
+        max-width: 70%;
     }
 
     .contatos-footer {
