@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
         projetosDiv.classList.toggle("hidden");
     });
 
+    document.querySelector('.burger').addEventListener("click", () => {
+        document.querySelector('.mini-menu').classList.toggle("closed")
+    })
+
     const scrollBtns = document.querySelectorAll(".scrollBtn");
 
     scrollBtns.forEach(button => {

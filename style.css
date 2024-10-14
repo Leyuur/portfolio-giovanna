@@ -577,7 +577,7 @@ nav a {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     * {
         animation: none !important;
@@ -718,23 +718,212 @@ nav a {
 
     .direita-2 {
         width: 80%;
+        height: fit-content;
     }
 
     .direita-2 p {
-        font-size: 2vw;
+        font-size: 2.5vw;
+        height: 50vh;
     }
 
     #onda-roxa-3 {
         content: url("assets/elements/mobile/Rectangle 120.png");
-        height: 140%;
-        top: -30%;
+        height: 110%;
+        top: -10vh;
         width: 110vw;
     }
 
     #tinta-laranja-2 {
-        bottom: -16%;
-        width: 40%;
+        bottom: -18vh;
+        width: 30%;
     }
+
+    #habilidades {
+        height: 70vh;
+    }
+
+    .conteudo-3 {
+        width: 80%;
+        gap: 3vh;
+        height: fit-content;
+    }
+
+    #titulo-3 {
+        font-size: 6vw;
+    }
+
+    .cima-3 {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 50% 20%;
+        grid-column-gap: 1.5%;
+        grid-row-gap: 15%;
+        justify-content: start;
+    }
+
+    .figma-3 img, .illustrator-3 img, .psp-3 img, .indesign-3 img {
+        width: 10vw;
+    }
+
+    .desc-3 h1 {
+        font-size: 2.5vw;
+    }
+
+    .desc-3 p {
+        font-size: 1.5vw;
+    }
+
+    .baixo-3 {
+        gap: 0;
+        position: relative;
+        height: 30vh;
+    } 
+
+    #card-3 {
+        position: absolute;
+        width: 35vw;
+    }
+
+    .card1 {
+        top: 3vw;
+        left: 0vw;
+    }
+
+    .card2 {
+        top: 30vw;
+        left: 19vw;
+    }
+
+    .card3 {
+        top: 6vw;
+        left: 45vw;
+    }
+    
+    .id-visual {
+        gap: 2vh;
+    }
+
+    .id-visual p {
+        font-size: 3vw;
+    }
+
+    .toda-4, .psidaisy-4, .aviaonamao-4, .circle-4, .icone-4 {
+        gap: 1.5vw;
+    }
+
+    .apresentacao-toda-4, .apresentacao-psidaisy-4, .apresentacao-aviaonamao-4, .apresentacao-circle-4, .apresentacao-icone-4 {
+        width: 90%;
+    }
+
+    .apresentacao-toda-4 h1, .apresentacao-psidaisy-4 h1, .apresentacao-aviaonamao-4 h1, .apresentacao-circle-4 h1, .apresentacao-icone-4 h1 {
+        font-size: 5vw;
+    }
+
+    .apresentacao-toda-4 h2, .apresentacao-psidaisy-4 h2, .apresentacao-circle-4 h2, .apresentacao-icone-4 h2 {
+        font-size: 3vw;
+    }
+
+    .apresentacao-toda-4 p, .apresentacao-psidaisy-4 p, .apresentacao-aviaonamao-4 p, .apresentacao-circle-4 p, .apresentacao-icone-4 p {
+        font-size: 2vw;
+    }
+
+    .id-toda-4 img, .id-psidaisy-4 img, .id-aviaonamao-4 img, .id-circle-4 img, .id-icone-4 img {
+        width: 90vw;
+    }
+
+    .id-toda-4 img {
+        margin-left: -2%;
+    }
+
+    .apresentacao-aviaonamao-4 h2 {
+        font-size: 2.5vw;
+    }
+
+    .design-rs p {
+        font-size: 3vw;
+    }
+
+    .design-rs img {
+        width: 90vw;
+    }
+
+    .pap-digital p {
+        font-size: 3vw;
+    }
+
+    .id-icone-4 img {
+        content: url("assets/elements/mobile/ÍCONE.png");
+    }
+
+    #onda-laranja {
+        height: auto;
+        width: 120%;
+        bottom: 20%;
+    }
+
+    #onda-rosa {
+        content: url("assets/elements/mobile/ABSTRATO\ LILAS.png");
+        width: 100%;
+    }
+
+    #curva-branca {
+        right: 0;
+        width: 20%;
+        height: auto;
+        bottom: 15%;
+        z-index: 1;
+    }
+
+    #flor-branca {
+        bottom: 20%;
+    }
+
+    #contato_ {
+        height: 40vh;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .conteudo-footer {
+        z-index: 4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 23vw;
+        gap: 1vw;
+    }
+
+    .conteudo-footer h1 {
+        font-size: 5vw;
+    }
+
+    .conteudo-footer p {
+        font-size: 1.9vw;
+    }
+
+    .conteudo-footer h3 {
+        font-size: 1.5vw;
+    }
+
+    .contatos-footer {
+        max-width: 90%;
+    }
+
+    .contatos-footer a {
+        font-family: var(--montserrat);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vw;
+        gap: 0.5vw;
+    }
+
+    .contatos-footer a img {
+        width: 4vw;
+    }
+
 }
 
 @keyframes slideDown {
