@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+    if(window.innerWidth <= 1024)  {
+        document.getElementById("p-sobre-mim").innerHTML  = "Me chamo Giovanna, tenho 20 anos e estou desde de 2003 fazendo artes por aí e hoje posso dizer que trabalho com o que amo.</br>Nos últimos anos desenvolvi trabalhos que me fizeram descobrir o Design Gráfico como minha paixão e vocação. Estes foram estudos, projetos criativos, Identidades Visual para Marcas, pôsteres e outros.</br>Meu objetivo é combinar a sua ideia, a minha criatividade e gerar artes que comuniquem até mesmo os que passam de longe.</br>Te apresento aqui o meu portfólio para você conhecer o meu trabalho e a minha área."
+    }
+
     const projetosBtn = document.getElementById("projetos-nav");
     const projetosDiv = document.querySelector(".projetos-click");
 
